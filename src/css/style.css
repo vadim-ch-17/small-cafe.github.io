@@ -122,7 +122,9 @@ h2,p{
 	font-size: 34px; 
 	color:  #e58f00;
 }
-.img-menu img{
+.img-menu img,
+.item-img,
+.img__position-relative{
 	position: relative;
 	z-index: 5;
 }
@@ -131,6 +133,8 @@ h2,p{
 	 opacity: 0.3;
 	transition-duration: 1s;
 }
+
+
 footer{
 	background: #35353b;
 }
